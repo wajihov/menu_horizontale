@@ -1,0 +1,23 @@
+body{
+	background: #0000ff30;
+}
+nav ul{
+	list-style: none; /*  Supprimer les puce de ul*/
+	background-color: #333333;
+}
+nav li{
+	display: inline-block;/* se placent les uns à côté des autre*/
+	width: 100px;/*la taille des éléments de notre menu*/
+	height: 40px;
+	border-right: 1px solid blue;
+	text-align: center;
+	line-height: 40px;/*centrer verticalement en rusant un peu :  valeur égale à la valeur de la propriété height à nos éléments li*/
+}
+nav li a{
+	display: block; /* les liens occupent tout l’espace à l’intérieur des éléments li */
+	text-decoration: none; /* supprimer la mise en forme par défaut des liens */
+	color: #FFFFFF;
+}
+nav li:hover{
+	background-color: #3388BB; /* notre menu change de couleur si les visiteurs passent leur souris dessus*/
+}
